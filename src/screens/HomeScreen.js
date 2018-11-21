@@ -2,10 +2,6 @@ import React from 'react';
 import { ScrollView, View, StyleSheet, Text, Button } from 'react-native';
 
 export default class HomeScreen extends React.Component {
-  static navigationOptions = {
-    title: 'DREAM RECALL'
-  };
-
   render() {
     return (
       <ScrollView style={styles.scrollContainer}>

@@ -1,5 +1,11 @@
 import React from 'react';
-import { ScrollView, StyleSheet, Text, Button } from 'react-native';
+import {
+  ScrollView,
+  StyleSheet,
+  Text,
+  Button,
+  AsyncStorage
+} from 'react-native';
 
 export default class LogInScreen extends React.Component {
   static navigationOptions = {
